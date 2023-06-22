@@ -1,5 +1,5 @@
 apiVersion: v2
-name: shiny-app-example
+name: bfs-example-app
 version: 1.0.0
 dependencies:
   - name: shiny
