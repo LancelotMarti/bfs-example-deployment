@@ -1,11 +1,11 @@
 shiny:
   image:
-    repository: LancelotMarti/bfs-example-app
+    repository: lancelotmarti/bfs-example-app
     tag: "latest"
     pullPolicy: Always
   ingress:
     enabled: true
-    hostname: bfs_example.lab.sspcloud.fr
+    hostname: bfs-example.lab.sspcloud.fr
   # s3:
   #   enabled: true
   #   existingSecret: myshinyapp-s3
